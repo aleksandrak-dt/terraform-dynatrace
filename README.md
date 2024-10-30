@@ -12,3 +12,12 @@ SET TF_VAR_app_namespace=<app-namespace>
 ```
 <br />
 5. In a CMD Terminal (I do it in VS Code on Windows) and execute following commands:
+
+```
+Command: <my-environments>.cmd
+Terraform init
+Terraform apply -auto-approve
+Terrraform destroy -auto-approve
+```
+
+Make sure you always destroy the terraform created resources via terraform destroy. 
